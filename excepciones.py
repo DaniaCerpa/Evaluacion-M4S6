@@ -26,6 +26,5 @@ while id_usuario not in usuarios:
         
         #Se agrega nueva clave-valor al diccionario
         usuarios[id_usuario] = "Ninguno"
-        
+        print(usuarios)
     
-print(usuarios)
